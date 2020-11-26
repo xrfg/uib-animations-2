@@ -1,0 +1,19 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  padding: 20px;
+
+  transition: background-color 0.3s, color 1.5s;
+}
+
+.card:hover {
+  background-color: black;
+  color: white;
+}
